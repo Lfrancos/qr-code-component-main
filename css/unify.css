@@ -1,0 +1,114 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  width: 100%;
+}
+
+/* //////////////////////////////////////////////////////// resets ////////////////////////////////////////////*/
+body {
+  background-color: #d6e2f0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 497px 1fr;
+  -ms-grid-columns: 1fr 320px 1fr;
+      grid-template: 1fr 497px 1fr / 1fr 320px 1fr;
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+
+footer {
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.card {
+  padding: 1rem;
+  background-color: white;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: 2 / 2;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.card h1 {
+  color: #1f3251;
+  margin: 1.5rem 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.card p {
+  color: #7b879d;
+}
+/*# sourceMappingURL=unify.css.map */
